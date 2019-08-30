@@ -1,0 +1,27 @@
+To my game testers,
+
+Thank you for testing out the game for me. I feel like the game has serious bugs lurking around I just can't find them.
+I have a feeling that most of the easy to find bugs will be in 2 player modes since I've made a bunch of changes lately
+only while playing 1 player. If you see a bug, please post it in the comments and if it's serious I'll fix it up.
+
+Also, comment your highscores with proof and I'll add your name to the high scores list replacing the titan and zeus bs
+
+If you have any ideas on how to improve the game please let me know!
+
+
+Currently Known Bugs:
+Fixable:
+- Sound volume is out of wack. Shooting sounds are too low
+- Power ups have crappy white boundaries. fixable, but time consuming
+- Dialog windows do not have button sounds unlike the main form
+- Highscores do not push downward, they only replace
+
+NonFixable:
+- Image can't overlap using transparency. Too much work to fix
+- Shooting diagonal. Too much work to make happen
+- 2 players tends to lag if there are too many objects moving. No clue on how to fix. I blame it on using winforms to make a game.
+
+
+If you've read this far then here's a treat:
+
+Hold down the left and right movement buttons and use up and down to navigate. This is like a turrent mode and it makes the game truly amazing. Also, you can shoot as fast as you can press the button. I like to use two fingers on the space bar.

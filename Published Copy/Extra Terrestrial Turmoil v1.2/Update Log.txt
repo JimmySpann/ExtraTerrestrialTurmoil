@@ -1,0 +1,22 @@
+- Fixed player 2 diabled weapons
+- Fixed player 2 combo power up
+
+- Ships look weird when first spawning
+- freeze glitches and leaves enemies frozen
+- 
+
+Update! v1.2 Read about the changes!
+- New sound have been added including menu sounds
+- Power ups have been added
+- Transitions between phases are now better in 2 player arcade
+- Max Combo power up is amazing
+- No one has found the Easter Egg in the credits yet. Hint: Click something
+
+Update! v1.1
+– Voices have been added.
+– Weird dying glitch has been found and fixed
+– For those of you who cannot see the start button, click the title label.
+– There’s an easter egg in the credits. Can you find it?
+– Fixed stupid glitch in battle mode
+– Updated combo system
+– Improved arcade for 1 player. 2 player’s arcade still sucks

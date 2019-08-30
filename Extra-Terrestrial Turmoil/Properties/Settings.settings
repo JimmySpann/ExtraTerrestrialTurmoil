@@ -1,0 +1,216 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="ExtraTerrestrialTurmoil.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Name1" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Titan</Value>
+    </Setting>
+    <Setting Name="Name2" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Zeus</Value>
+    </Setting>
+    <Setting Name="Name3" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Master</Value>
+    </Setting>
+    <Setting Name="Name4" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Assassin</Value>
+    </Setting>
+    <Setting Name="Name5" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pro</Value>
+    </Setting>
+    <Setting Name="Name6" Type="System.String" Scope="User">
+      <Value Profile="(Default)">General</Value>
+    </Setting>
+    <Setting Name="Name7" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Captain</Value>
+    </Setting>
+    <Setting Name="Name8" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Amateur</Value>
+    </Setting>
+    <Setting Name="Name9" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Rookie</Value>
+    </Setting>
+    <Setting Name="Name10" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Noob</Value>
+    </Setting>
+    <Setting Name="Score1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50000</Value>
+    </Setting>
+    <Setting Name="Score2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">25000</Value>
+    </Setting>
+    <Setting Name="Score3" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20000</Value>
+    </Setting>
+    <Setting Name="Score4" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">14000</Value>
+    </Setting>
+    <Setting Name="Score5" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8000</Value>
+    </Setting>
+    <Setting Name="Score6" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="Score7" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="Score8" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2500</Value>
+    </Setting>
+    <Setting Name="Score9" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="Score10" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Name11" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Titan</Value>
+    </Setting>
+    <Setting Name="Name12" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Zeus</Value>
+    </Setting>
+    <Setting Name="Name13" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Master</Value>
+    </Setting>
+    <Setting Name="Name14" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Assassin</Value>
+    </Setting>
+    <Setting Name="Name15" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pro</Value>
+    </Setting>
+    <Setting Name="Name16" Type="System.String" Scope="User">
+      <Value Profile="(Default)">General</Value>
+    </Setting>
+    <Setting Name="Name17" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Captain</Value>
+    </Setting>
+    <Setting Name="Name18" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Amateur</Value>
+    </Setting>
+    <Setting Name="Name19" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Rookie</Value>
+    </Setting>
+    <Setting Name="Name20" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Noob</Value>
+    </Setting>
+    <Setting Name="Score11" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50000</Value>
+    </Setting>
+    <Setting Name="Score12" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">25000</Value>
+    </Setting>
+    <Setting Name="Score13" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20000</Value>
+    </Setting>
+    <Setting Name="Score14" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">14000</Value>
+    </Setting>
+    <Setting Name="Score15" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8000</Value>
+    </Setting>
+    <Setting Name="Score16" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="Score17" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="Score18" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2500</Value>
+    </Setting>
+    <Setting Name="Score19" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="Score20" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="Name21" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Titan</Value>
+    </Setting>
+    <Setting Name="Name22" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Zeus</Value>
+    </Setting>
+    <Setting Name="Name23" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Master</Value>
+    </Setting>
+    <Setting Name="Name24" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Assassin</Value>
+    </Setting>
+    <Setting Name="Name25" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Pro</Value>
+    </Setting>
+    <Setting Name="Name26" Type="System.String" Scope="User">
+      <Value Profile="(Default)">General</Value>
+    </Setting>
+    <Setting Name="Name27" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Captain</Value>
+    </Setting>
+    <Setting Name="Name28" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Amateur</Value>
+    </Setting>
+    <Setting Name="Name29" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Rookie</Value>
+    </Setting>
+    <Setting Name="Name30" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Noob</Value>
+    </Setting>
+    <Setting Name="Score21" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">50000</Value>
+    </Setting>
+    <Setting Name="Score22" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">25000</Value>
+    </Setting>
+    <Setting Name="Score23" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">20000</Value>
+    </Setting>
+    <Setting Name="Score24" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">14000</Value>
+    </Setting>
+    <Setting Name="Score25" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">8000</Value>
+    </Setting>
+    <Setting Name="Score26" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">5000</Value>
+    </Setting>
+    <Setting Name="Score27" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">3000</Value>
+    </Setting>
+    <Setting Name="Score28" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">2500</Value>
+    </Setting>
+    <Setting Name="Score29" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">1000</Value>
+    </Setting>
+    <Setting Name="Score30" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">100</Value>
+    </Setting>
+    <Setting Name="tScore1" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="tScore2" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="tScore3" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="tScore4" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="tScore5" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="tScore6" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="tScore7" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="tScore8" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="tScore9" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+    <Setting Name="tScore10" Type="System.Int32" Scope="User">
+      <Value Profile="(Default)">0</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

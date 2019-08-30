@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Extra-Terrestrial Turmoil.exe" version="0.1.1.0" publicKeyToken="7c7e51d41436ef05" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="space_mine_hRK_icon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Extra-Terrestrial Turmoil" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Extra-Terrestrial Turmoil.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Extra-Terrestrial Turmoil.exe" size="14648752">
+      <assemblyIdentity name="Extra-Terrestrial Turmoil" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>xrLJL6zNqAtVJ2w8bcfZQlIWls16mkXrAvndmCzZzKc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Extra-Terrestrial Turmoil.exe.config" size="3697">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>W4PPgbqVlYAh7g3xql+sO1MAfqVbxVjKdxwmMIkVBUU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HighScores.mdf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>ZE4uA9H0nzJ4lPzCfLdQCI8FnrRy6scGBoAfVn+aM4A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="HighScores_log.ldf" size="8388608" writeableType="applicationData">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>WyQAIQvdOSod7sR5+qcQPxsAzUd/cwQGC/cxwvj7Hug=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="space_mine_hRK_icon.ico" size="37108">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+0C4n18q5YGr+zn5DtNWn/gdmayxZMkjzplhmABV+84=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=SCCSC\jlspann" issuerKeyHash="9571a826d137b97c6c6b1bf5366eca272a1b097b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>jVsQWtnuuN4u0rJEg7R9ShIK8Hnjl/gDAvheJs8JFvQ=</DigestValue></Reference></SignedInfo><SignatureValue>MG9y9rUx+zP5hHIlzlWGFdAGKF3pIdwb1h13cxtG7nS8fUZR/9/0XaLCg+69F76orOREyIEvUVHFZ4HZ+ncQO2yBGNOmna6gQnJVy5dQXpK4+RUn/eQNAXzessnFdqDATeCXTro+vOj8Pb99CivizFqAJIBgy1c4PP3TCsuQ/b0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>5p7Mhszp6fp5qujAYd6/zHsHtb9Tc5mjOBU4p4mnf9kBn260UJrkWZyIn0gYpWlkBJGwXpp7jtNKAgqIgT8h8+RN8a31uuX5q+0k30HbueUlILv5dUHuec3CR1tba5WmK8l33L1cNYLxk9f0d8ROLSZ0y7An6ORgJv+c0pLrbWk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="f41609cf265ef80203f897e379f00a124a7db48344b2d22edeb8eed95a105b8d" Description="" Url=""><as:assemblyIdentity name="Extra-Terrestrial Turmoil.exe" version="0.1.1.0" publicKeyToken="7c7e51d41436ef05" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SCCSC\jlspann</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4g6ZmI+jPu6SpjpRCIZ6puJDpgoQijWLf1qhprdsEm4=</DigestValue></Reference></SignedInfo><SignatureValue>ojHMaosoGVimg0KsBqTjW8D3flRZrmghuZjlElQvxgn0+l+umSJp3SWXana5c+NWbC7W5veCUOqRjdIZGjlBrF1jJ3B+cN3/GWfUu/vXuVJ8cWUcW1dmvTdEhcCNzhz6ZMhbq+R7T32M0N+yGRYFVsQAEWa+25i9QHw1+dZp07g=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>5p7Mhszp6fp5qujAYd6/zHsHtb9Tc5mjOBU4p4mnf9kBn260UJrkWZyIn0gYpWlkBJGwXpp7jtNKAgqIgT8h8+RN8a31uuX5q+0k30HbueUlILv5dUHuec3CR1tba5WmK8l33L1cNYLxk9f0d8ROLSZ0y7An6ORgJv+c0pLrbWk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIBzTCCATagAwIBAgIQUQAlhWzx/IhIcUZa0EXBhDANBgkqhkiG9w0BAQsFADAlMSMwIQYDVQQDHhoAUwBDAEMAUwBDAFwAagBsAHMAcABhAG4AbjAeFw0xNzExMTAwMjAwNTRaFw0xODExMTAwODAwNTRaMCUxIzAhBgNVBAMeGgBTAEMAQwBTAEMAXABqAGwAcwBwAGEAbgBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDmnsyGzOnp+nmq6MBh3r/Mewe1v1NzmaM4FTiniad/2QGfbrRQmuRZnIifSBilaWQEkbBemnuO00oCCoiBPyHz5E3xrfW65fmr7STfQdu55SUgu/l1Qe55zcJHW1trlaYryXfcvVw1gvGT1/R3xE4tJnTLsCfo5GAm/5zSkuttaQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAKKL2+ktKTbvMrBChLgHxbal436FfeTq3eee6le8CjzE9aZr3ptl8Fet/U6O1SWA+qf2p6WcSbtRsSTMKYLc5yzCHyrDUSCqpLqmiU1ONb4MabiVHswdKQzlYR63jr/QZiP7yfuVBUV3Kk8rvs9SP82ATyR44B+r8rhuh8cufred</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

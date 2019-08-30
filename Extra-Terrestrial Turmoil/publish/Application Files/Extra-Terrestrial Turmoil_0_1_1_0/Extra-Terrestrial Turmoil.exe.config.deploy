@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+    <configSections>
+        <sectionGroup name="applicationSettings" type="System.Configuration.ApplicationSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="WindowsFormsApplication5.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" requirePermission="false" />
+        </sectionGroup>
+        <sectionGroup name="userSettings" type="System.Configuration.UserSettingsGroup, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" >
+            <section name="WindowsFormsApplication5.Properties.Settings" type="System.Configuration.ClientSettingsSection, System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" allowExeDefinition="MachineToLocalUser" requirePermission="false" />
+        </sectionGroup>
+    </configSections>
+    <startup> 
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.5.2" />
+    </startup>
+    <applicationSettings>
+        <WindowsFormsApplication5.Properties.Settings>
+            <setting name="Name1" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Name2" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Name3" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Name4" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Name5" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Name6" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Name7" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Name8" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Name9" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Name10" serializeAs="String">
+                <value />
+            </setting>
+            <setting name="Score1" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Score2" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Score3" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Score4" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Score5" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Score6" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Score7" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Score8" serializeAs="String">
+                <value>0</value>
+            </setting>
+            <setting name="Score9" serializeAs="String">
+                <value>0</value>
+            </setting>
+        </WindowsFormsApplication5.Properties.Settings>
+    </applicationSettings>
+    <userSettings>
+        <WindowsFormsApplication5.Properties.Settings>
+            <setting name="Score10" serializeAs="String">
+                <value>0</value>
+            </setting>
+        </WindowsFormsApplication5.Properties.Settings>
+    </userSettings>
+</configuration>

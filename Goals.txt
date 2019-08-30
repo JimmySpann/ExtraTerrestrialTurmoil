@@ -1,0 +1,36 @@
+Faster Bullets for Fast Mode = Done
+Improve Turrent Mode = Done
+Create Game Options Menu = Done
+Pause Menu = Done
+Stops when make sharp turn = Done
+Make the 3 game modes = Done
+Arcade Mode = Done
+SandBox Mode = Done
+BattleMode: Enemies hit players = Done
+BattleMode: Victory Sequence = Done
+Fix Menu Crashing = Done
+Play better free-to-use music = Done
+BattleMode: Rounds and continuous = Done
+Do Simultanious sounds = Done
+Enemies can't insta kill you = Done... I think
+Vulture Ship = Done
+Blue Speedster Ship = Done
+Fix Screen Resolution Problem = Done
+Add Combo Multiplier with attributes = Done
+Fix dying too quickly = depends on player
+Deepen tone of shot when bullet's size increases = Done
+Add Power Ups = Done
+Add Sound Effects = Done
+Add Logo = Done
+
+
+Goals:
+Organize and add notes to code = done..ish
+
+
+Possible Fixes:
+Power Ups change moves when game is paused. good way to cheat
+Ships directional is messed up in menu. Could set direction in quit session
+Could fix shoot volume
+Could add sound to other forms
+Could fix lag (improve foreach method)

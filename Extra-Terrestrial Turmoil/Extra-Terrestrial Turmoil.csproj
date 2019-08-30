@@ -1,0 +1,444 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FBBBAE69-DD0C-46BA-BEB8-C76EA81539F8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ExtraTerrestrialTurmoil</RootNamespace>
+    <AssemblyName>Extra-Terrestrial Turmoil</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Users\jlspann\Desktop\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <AutorunEnabled>true</AutorunEnabled>
+    <ApplicationRevision>2</ApplicationRevision>
+    <ApplicationVersion>0.1.1.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ApplicationManifest>Properties\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>space_mine_hRK_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>A6D7F414665BCD555A45986B86453ED60FD5E403</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Extra-Terrestrial Turmoil_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Credits.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Credits.Designer.cs">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameOver.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameOver.Designer.cs">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Options.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.Designer.cs">
+      <DependentUpon>Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Pause.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Pause.Designer.cs">
+      <DependentUpon>Pause.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="TextForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TextForm.Designer.cs">
+      <DependentUpon>TextForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Credits.resx">
+      <DependentUpon>Credits.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameOver.resx">
+      <DependentUpon>GameOver.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Pause.resx">
+      <DependentUpon>Pause.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TextForm.resx">
+      <DependentUpon>TextForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Extra-Terrestrial Turmoil_TemporaryKey.pfx" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grass BG.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\space.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spaceBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\enemy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bullet_up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RyanSnookExplosion.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RobinHoodShoot.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Creditst_buttons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Creditst_buttons_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_buttons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit_buttons_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\optionst_buttons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\optionst_buttons_pressed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_buttons.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play_buttons_pressed_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="MediaPlayer">
+      <Guid>{22D6F304-B0F6-11D0-94AB-0080C74C7E95}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="stdole">
+      <Guid>{00020430-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLauncher">
+      <Guid>{5CB42160-CD7C-4806-9367-1C4A65153F4A}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedMotherShip.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedExplosion.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedMShipAn1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedMShipAn2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedMShipAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedMShipAn3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vulture DownAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vulture LeftAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vulture RightAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Vulture UpAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyer Down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyer DownAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyer Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyer LeftAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyer Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyer RightAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyer Up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Destroyer UpAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedSpeedsterDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedSpeedsterDownAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedSpeedsterLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedSpeedsterLeftAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedSpeedsterUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedSpeedsterUpAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedDestroyerDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedDestroyerDownAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedDestroyerLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedDestroyerLeftAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedDestroyerRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedDestroyerRightAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedDestroyerUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedDestroyerUpAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mario.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ezgif.com-gif-maker.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedSpeedsterRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\RedSpeedsterRightAn.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulletRedRight.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulletRedUp.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulletRedDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bulletRedLeft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Melodic Fast Guitar Metal Instrumental.mp3" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BlueMShipAn.gif" />
+    <None Include="Resources\BlueEnemy.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\Data\Sounds\RobinHoodShoot.wav" />
+    <None Include="Resources\Vulture Down.png" />
+    <None Include="Resources\Vulture Left.png" />
+    <None Include="Resources\Vulture Right.png" />
+    <None Include="Resources\Vulture Up.png" />
+    <None Include="Resources\BlueWingLeft.png" />
+    <None Include="Resources\BlueWingRight.png" />
+    <None Include="Resources\BlueWingUp.png" />
+    <None Include="Resources\DownAn.gif" />
+    <None Include="Resources\LeftAn.gif" />
+    <None Include="Resources\RightAn.gif" />
+    <None Include="Resources\UpAn.gif" />
+    <None Include="Resources\BlueWingDown.png" />
+    <None Include="Resources\proton.gif" />
+    <None Include="Resources\galaxy.gif" />
+    <None Include="Resources\Life.gif" />
+    <None Include="Resources\Battery.gif" />
+    <None Include="Resources\FreezeEnemies.gif" />
+    <None Include="Resources\Health.gif" />
+    <None Include="Resources\InstaKill.gif" />
+    <None Include="Resources\MaxCombo.gif" />
+    <None Include="Resources\DisableWeapons.gif" />
+    <None Include="bin\Debug\Data\Sounds\RobinHoodShoot3.wav" />
+    <None Include="bin\Debug\Data\Sounds\RobinHoodShoot4.wav" />
+    <None Include="bin\Debug\Data\Sounds\RobinHoodShoot2.wav" />
+    <None Include="Resources\SplashLogo.png" />
+    <None Include="Resources\SplashLogo.gif" />
+    <Content Include="space_mine_hRK_icon.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
